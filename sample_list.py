@@ -26,14 +26,13 @@ print(Mylist[-1])
 
 # for文で各要素にアクセス
 for x in Mylist:
-    print(x+1)
+    print(x)
 
-# 検索
+# 検索, 値がリストに入っていれば True
 print( 99 in Mylist )
 
 # 削除
 Mylist.remove( 99 )
-print( 99 in Mylist )
 
 # リスト内包表記
 print([ i*2 for i in range(5)])
